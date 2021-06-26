@@ -33,6 +33,10 @@ class Linkedlist:
             new_node.next = self.head
             self.head = new_node
             self.len+= 1
+    def checkempty(self):
+        if self.head == None:
+            return True
+
 
     def traverse(self):
         cur = self.head
@@ -40,13 +44,17 @@ class Linkedlist:
             print(cur.data)
             cur = cur.next
     def delete(self,pos):
+        i
+        "delete at start"
+
 
 
 a = Linkedlist()
+a.checkempty()
 #a.append(0)
 #a.append(2)
 #a.traverse()
 
-a.prepend(0)
-a.prepend(1)
-a.traverse()
+#a.prepend(0)
+#a.prepend(1)
+#a.traverse()
