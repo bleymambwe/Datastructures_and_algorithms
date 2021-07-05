@@ -98,7 +98,7 @@ a.append(3)
 a.append(4)
 a.prepend(-1)
 
-a.traverse_forward()
+#a.traverse_forward()
 a.traverse_backwards()
 a.delete(3)
 #a.insert(item = 6,pos = 0)
