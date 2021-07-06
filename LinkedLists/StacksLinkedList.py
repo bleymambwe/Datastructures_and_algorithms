@@ -54,7 +54,10 @@ class StackLinkedList():
         else:
             self.deleteEnd()
     def checklen(self):
-        return print(self.len)
+        if self.len <= 0:
+            self.underflow()
+        else:
+            return print(self.len)
 a = StackLinkedList(8)
 a.push(0)
 a.push(1)
